@@ -1,0 +1,42 @@
+//
+//  VocalReferences-Prefix.pch
+//  VocalReferences
+//
+//  Created by Andrey Golovin on 30.12.14.
+//  Copyright (c) 2014 Andrey Golovin. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "NSString+stripHTML.h"
+#import <Social/Social.h>
+#import <MessageUI/MessageUI.h>
+#import "AGVimeoAuth.h"
+#import "AGYoutubeAuth.h"
+#import "AGRootViewController.h"
+#import <CoreText/CoreText.h>
+#import "NSString+checkUserData.h"
+#import "NSDictionary+toJSONString.h"
+#import "Constants.h"
+#import "ApiConstants.h"
+#import "AGApi.h"
+#import "JXApiRequest.h"
+#import "AGThisUser.h"
+#import "UIButton+backButton.h"
+#import "UIButton+fontChanger.h"
+#import "AGDefaultInfo.h"
+#import "MBProgressHUD.h"
+#import "AGStorage.h"
+#import <SDWebImage/UIImageView+WebCache.h>
+#import "AGRecord.h"
+#import "AGVssManager.h"
+
+#endif

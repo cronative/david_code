@@ -1,0 +1,11 @@
+
+target 'VocalReferences' do
+
+platform :ios, '7.0'
+pod "AFNetworking", "~> 2.0"
+pod 'SplunkMint-iOS'
+pod 'SDWebImage', '~>3.6'
+pod 'NXOAuth2Client', '~> 1.2.8'
+pod 'IOSLinkedInAPI', '~> 2.0'
+
+end
